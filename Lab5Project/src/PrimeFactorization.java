@@ -9,7 +9,7 @@ public class PrimeFactorization {
 		
 		if (i > 1)
 		{
-			ret.add(2);
+			ret.add(i);
 		}
 		return ret;
 	}
