@@ -29,7 +29,7 @@ public class PrimeFactorizationTest {
 	@Test
 	public void testThree()
 	{
-		assertEquals(list(3), PrimeFactorization.generatePrimes(2));
+		assertEquals(list(3), PrimeFactorization.generatePrimes(3));
 	}
 	
 	private ArrayList<Integer> list(int... ints){
