@@ -32,6 +32,12 @@ public class PrimeFactorizationTest {
 		assertEquals(list(3), PrimeFactorization.generatePrimes(3));
 	}
 	
+	@Test
+	public void testFour()
+	{
+		assertEquals(list(2,2),PrimeFactorization.generatePrimes(4));
+	}
+	
 	private ArrayList<Integer> list(int... ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for (int i : ints){
