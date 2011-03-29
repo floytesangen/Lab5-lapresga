@@ -1,9 +1,10 @@
+import java.util.ArrayList;
+
 
 public class PrimeGeneration {
 
 	public static Object generatePrimes(int i) {
-		// TODO Auto-generated method stub
-		return null;
+		return new ArrayList<Integer>();
 	}
 
 }
